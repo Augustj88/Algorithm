@@ -1,3 +1,5 @@
+#BAEKJOON 2884 알람시계
+
 H,M=map(int,input().split())
 if M<=44:
     NH=H-1
