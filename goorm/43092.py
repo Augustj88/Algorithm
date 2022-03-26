@@ -11,7 +11,7 @@ else:
         cnt += i
     print(cnt)
 
-#method2
+#method2-함수사용
 def a():
     cnt = 0
     if n < 2:
@@ -20,4 +20,5 @@ def a():
         for i in range(1,n):
             cnt += i
         return cnt
+
 print(a())
